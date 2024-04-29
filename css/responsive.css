@@ -1,0 +1,121 @@
+@media all and (max-width:900px) {
+ 
+    #nav {
+       position: fixed;
+       overflow: auto;
+       left: -320px;
+       top: 0px;
+       height: 100vh;
+       width: 320px;
+       padding: 30px;
+       -webkit-box-sizing: border-box;
+               box-sizing: border-box;
+       background-color: var(--color-dark-gray);
+    }
+
+    .menu {
+       overflow: hidden;
+       padding-top: 50px;
+    }
+
+    .menu li {
+       float: none;
+       margin-left: 0px;
+       margin-bottom: 20px;
+   }
+
+    #openmenu, #closemenu {
+       display: inline-block;
+    }
+
+    #closemenu {
+       float: right;
+    }
+
+    .header-content > div {
+       width: 100%;
+       padding: 30px;
+   }
+
+   .aboutaus-img {
+       width: 100%;
+       position: relative;
+       margin-bottom: 100px;
+   }
+
+   .experiense {
+       position: absolute;
+       bottom: 20px;
+       left: 20px;
+   }
+
+   .aboutus-content {
+       width: 100%;
+       padding-left: 0px;
+   }
+
+   .single-service {
+       width: calc(50% - 40px);
+   }
+
+   .offer-content {
+       width: 100%;
+       padding-right: 0px;
+       margin-bottom: 100px;
+   }
+
+   .offer-img {
+       width: 100%;
+   }
+
+   .single-product {
+       width: calc(50% - 20px);
+   }
+
+   .booking-content {
+       width: 100%;
+       padding-right: 0px;
+       margin-bottom: 100px;
+   }
+
+   .contact-content {
+       width: 100%;
+       text-align: center;
+   }
+   .social-link {
+    justify-content: center;
+   }
+
+}
+
+@media all and (max-width:600px) {
+
+   .single-service {
+       width: calc(100% - 40px);
+   }
+
+   .single-product {
+       width: calc(100% - 20px);
+   }
+
+   .wrapper-input input {
+       width: 100%;
+   }
+
+   .wrapper-header-top p {
+       margin-bottom: 10px;
+   }
+
+}
+
+@media all and (max-width:400px) {
+  
+   h1 {
+       font-size: 70px;
+   }
+   
+   h2 {
+       font-size: 40px;
+   }
+
+}
